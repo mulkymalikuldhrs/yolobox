@@ -139,3 +139,9 @@ Document solutions here when something takes multiple attempts to figure out.
 - **Colima defaults to 2GB RAM**: Claude Code gets OOM killed. Need 4GB+. yolobox now warns if Docker has < 4GB.
 - **Named volumes shadow image contents**: The `yolobox-home` volume mounts over `/home/yolo`, so new files added to the image's `/home/yolo` won't appear for existing users. Solution: put configs in `/etc/` if they must be visible without volume deletion.
 - **Bash vs Fish config locations differ**: Fish uses `/etc/fish/conf.d/yolobox.fish`. Bash uses `/etc/bash.bashrc` (append to it). Don't use `/etc/profile.d/` for bash—that's only sourced by login shells, and Docker starts non-login shells.
+
+---
+
+> **Contact:** Mulky Malikul Dhaher — [mulkymalikuldhaher@email.com](mailto:mulkymalikuldhaher@email.com)
+>
+> **Disclaimer:** This project is for Education Purpose only. Risiko apapun tidak kita tanggung. (We are not responsible for any risks or damages.)
